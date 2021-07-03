@@ -6,5 +6,7 @@ require (
 	models v1.0.0
 )
 
-replace models v1.0.0 => ../models
+replace (
+	models v1.0.0 => ../models
+)
 

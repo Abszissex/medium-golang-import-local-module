@@ -10,4 +10,6 @@ func main() {
 	ev.Type = "My Type"
 	ev.SecondParam = "Another param"
 	log.Printf("Event %v", ev)
+
+	log.Println(models.MyPublicFunc())
 }
